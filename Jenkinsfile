@@ -12,7 +12,6 @@ pipeline {
         SONAR_TOKEN = credentials('sonar-token')
     }
 
-
     stages {
 
         stage('Checkout') {
@@ -38,4 +37,5 @@ pipeline {
                 """
             }
         }
-        }
+    }
+}
