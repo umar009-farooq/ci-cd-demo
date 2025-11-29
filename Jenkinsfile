@@ -9,7 +9,7 @@ pipeline {
     environment {
         SONAR_PROJECT_KEY = 'ci-cd-demo'
         SONAR_URL = 'http://localhost:9000'
-        SONAR_TOKEN = credentials('sonar-token')
+        SONAR_TOKEN = credentials('jenkins-token')
     }
 
     stages {
