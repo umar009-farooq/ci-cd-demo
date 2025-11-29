@@ -33,7 +33,7 @@ pipeline {
                 mvn sonar:sonar \
                     -Dsonar.projectKey=$SONAR_PROJECT_KEY \
                     -Dsonar.host.url=$SONAR_URL \
-                    -Dsonar.login=$JENKINS_TOKEngit
+                    -Dsonar.login=$JENKINS_TOKEN
                 """
             }
         }
